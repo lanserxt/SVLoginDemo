@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3342DD501AF21882008836ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD4F1AF21882008836ED /* main.m */; };
+		3342DD531AF21882008836ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD521AF21882008836ED /* AppDelegate.m */; };
+		3342DD561AF21882008836ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD551AF21882008836ED /* ViewController.m */; };
+		3342DD591AF21882008836ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD571AF21882008836ED /* Main.storyboard */; };
+		3342DD5B1AF21882008836ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD5A1AF21882008836ED /* Images.xcassets */; };
+		3342DD5E1AF21882008836ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD5C1AF21882008836ED /* LaunchScreen.xib */; };
+		3342DD6A1AF21882008836ED /* SVLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD691AF21882008836ED /* SVLoginDemoTests.m */; };
+		3342DD781AF219B7008836ED /* SVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD771AF219B7008836ED /* SVTextField.m */; };
+		3342DD7B1AF219DE008836ED /* SVButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3342DD7A1AF219DE008836ED /* SVButton.m */; };
+		3342DD7D1AF21E75008836ED /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD7C1AF21E75008836ED /* user.png */; };
+		3342DD7F1AF21ED1008836ED /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD7E1AF21ED1008836ED /* lock.png */; };
+		3342DD831AF2224B008836ED /* cliff.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD821AF2224B008836ED /* cliff.JPG */; };
+		3342DD851AF254F1008836ED /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 3342DD841AF254F1008836ED /* tick.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3342DD641AF21882008836ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3342DD421AF21882008836ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3342DD491AF21882008836ED;
+			remoteInfo = SVLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3342DD4A1AF21882008836ED /* SVLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3342DD4E1AF21882008836ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3342DD4F1AF21882008836ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3342DD511AF21882008836ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3342DD521AF21882008836ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3342DD541AF21882008836ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3342DD551AF21882008836ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3342DD581AF21882008836ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3342DD5A1AF21882008836ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3342DD5D1AF21882008836ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3342DD631AF21882008836ED /* SVLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3342DD681AF21882008836ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3342DD691AF21882008836ED /* SVLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVLoginDemoTests.m; sourceTree = "<group>"; };
+		3342DD761AF219B7008836ED /* SVTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVTextField.h; sourceTree = "<group>"; };
+		3342DD771AF219B7008836ED /* SVTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTextField.m; sourceTree = "<group>"; };
+		3342DD791AF219DE008836ED /* SVButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVButton.h; sourceTree = "<group>"; };
+		3342DD7A1AF219DE008836ED /* SVButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVButton.m; sourceTree = "<group>"; };
+		3342DD7C1AF21E75008836ED /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		3342DD7E1AF21ED1008836ED /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		3342DD821AF2224B008836ED /* cliff.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cliff.JPG; sourceTree = "<group>"; };
+		3342DD841AF254F1008836ED /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3342DD471AF21882008836ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3342DD601AF21882008836ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3342DD411AF21882008836ED = {
+			isa = PBXGroup;
+			children = (
+				3342DD4C1AF21882008836ED /* SVLoginDemo */,
+				3342DD661AF21882008836ED /* SVLoginDemoTests */,
+				3342DD4B1AF21882008836ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3342DD4B1AF21882008836ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD4A1AF21882008836ED /* SVLoginDemo.app */,
+				3342DD631AF21882008836ED /* SVLoginDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3342DD4C1AF21882008836ED /* SVLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD511AF21882008836ED /* AppDelegate.h */,
+				3342DD521AF21882008836ED /* AppDelegate.m */,
+				3342DD751AF2189F008836ED /* Custom */,
+				3342DD731AF2188B008836ED /* ViewControllers */,
+				3342DD741AF21898008836ED /* Resources */,
+				3342DD4D1AF21882008836ED /* Supporting Files */,
+			);
+			path = SVLoginDemo;
+			sourceTree = "<group>";
+		};
+		3342DD4D1AF21882008836ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD4E1AF21882008836ED /* Info.plist */,
+				3342DD4F1AF21882008836ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3342DD661AF21882008836ED /* SVLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD691AF21882008836ED /* SVLoginDemoTests.m */,
+				3342DD671AF21882008836ED /* Supporting Files */,
+			);
+			path = SVLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		3342DD671AF21882008836ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD681AF21882008836ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3342DD731AF2188B008836ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD541AF21882008836ED /* ViewController.h */,
+				3342DD551AF21882008836ED /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3342DD741AF21898008836ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD841AF254F1008836ED /* tick.png */,
+				3342DD7C1AF21E75008836ED /* user.png */,
+				3342DD7E1AF21ED1008836ED /* lock.png */,
+				3342DD821AF2224B008836ED /* cliff.JPG */,
+				3342DD571AF21882008836ED /* Main.storyboard */,
+				3342DD5A1AF21882008836ED /* Images.xcassets */,
+				3342DD5C1AF21882008836ED /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3342DD751AF2189F008836ED /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				3342DD761AF219B7008836ED /* SVTextField.h */,
+				3342DD771AF219B7008836ED /* SVTextField.m */,
+				3342DD791AF219DE008836ED /* SVButton.h */,
+				3342DD7A1AF219DE008836ED /* SVButton.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3342DD491AF21882008836ED /* SVLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3342DD6D1AF21882008836ED /* Build configuration list for PBXNativeTarget "SVLoginDemo" */;
+			buildPhases = (
+				3342DD461AF21882008836ED /* Sources */,
+				3342DD471AF21882008836ED /* Frameworks */,
+				3342DD481AF21882008836ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVLoginDemo;
+			productName = SVLoginDemo;
+			productReference = 3342DD4A1AF21882008836ED /* SVLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3342DD621AF21882008836ED /* SVLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3342DD701AF21882008836ED /* Build configuration list for PBXNativeTarget "SVLoginDemoTests" */;
+			buildPhases = (
+				3342DD5F1AF21882008836ED /* Sources */,
+				3342DD601AF21882008836ED /* Frameworks */,
+				3342DD611AF21882008836ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3342DD651AF21882008836ED /* PBXTargetDependency */,
+			);
+			name = SVLoginDemoTests;
+			productName = SVLoginDemoTests;
+			productReference = 3342DD631AF21882008836ED /* SVLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3342DD421AF21882008836ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anton Gubarenko";
+				TargetAttributes = {
+					3342DD491AF21882008836ED = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3342DD621AF21882008836ED = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3342DD491AF21882008836ED;
+					};
+				};
+			};
+			buildConfigurationList = 3342DD451AF21882008836ED /* Build configuration list for PBXProject "SVLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3342DD411AF21882008836ED;
+			productRefGroup = 3342DD4B1AF21882008836ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3342DD491AF21882008836ED /* SVLoginDemo */,
+				3342DD621AF21882008836ED /* SVLoginDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3342DD481AF21882008836ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3342DD591AF21882008836ED /* Main.storyboard in Resources */,
+				3342DD831AF2224B008836ED /* cliff.JPG in Resources */,
+				3342DD7D1AF21E75008836ED /* user.png in Resources */,
+				3342DD5E1AF21882008836ED /* LaunchScreen.xib in Resources */,
+				3342DD5B1AF21882008836ED /* Images.xcassets in Resources */,
+				3342DD851AF254F1008836ED /* tick.png in Resources */,
+				3342DD7F1AF21ED1008836ED /* lock.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3342DD611AF21882008836ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3342DD461AF21882008836ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3342DD561AF21882008836ED /* ViewController.m in Sources */,
+				3342DD7B1AF219DE008836ED /* SVButton.m in Sources */,
+				3342DD531AF21882008836ED /* AppDelegate.m in Sources */,
+				3342DD781AF219B7008836ED /* SVTextField.m in Sources */,
+				3342DD501AF21882008836ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3342DD5F1AF21882008836ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3342DD6A1AF21882008836ED /* SVLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3342DD651AF21882008836ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3342DD491AF21882008836ED /* SVLoginDemo */;
+			targetProxy = 3342DD641AF21882008836ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3342DD571AF21882008836ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3342DD581AF21882008836ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3342DD5C1AF21882008836ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3342DD5D1AF21882008836ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3342DD6B1AF21882008836ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3342DD6C1AF21882008836ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3342DD6E1AF21882008836ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SVLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3342DD6F1AF21882008836ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SVLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3342DD711AF21882008836ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SVLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVLoginDemo.app/SVLoginDemo";
+			};
+			name = Debug;
+		};
+		3342DD721AF21882008836ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SVLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVLoginDemo.app/SVLoginDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3342DD451AF21882008836ED /* Build configuration list for PBXProject "SVLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3342DD6B1AF21882008836ED /* Debug */,
+				3342DD6C1AF21882008836ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3342DD6D1AF21882008836ED /* Build configuration list for PBXNativeTarget "SVLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3342DD6E1AF21882008836ED /* Debug */,
+				3342DD6F1AF21882008836ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3342DD701AF21882008836ED /* Build configuration list for PBXNativeTarget "SVLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3342DD711AF21882008836ED /* Debug */,
+				3342DD721AF21882008836ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3342DD421AF21882008836ED /* Project object */;
+}
